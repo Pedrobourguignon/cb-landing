@@ -16,15 +16,17 @@ export default function Home() {
       <FirstSession />
       <Img src="/images/cb-bg1.png" zIndex="10" />
       <SecondSession />
-      <ThirdSession />
-      <Img
-        src="/images/celia_bourguignon.png"
-        top="1770px"
-        left="12"
-        w="60"
-        position="absolute"
-      />
-      <FourthSession />
+      <Flex direction="column" position="relative">
+        <ThirdSession />
+        <Img
+          src="/images/celia_bourguignon.png"
+          left="12"
+          w="60"
+          top="96"
+          position="absolute"
+        />
+        <FourthSession />
+      </Flex>
       <FifthSession />
       <SixthSession />
       <Footer />
