@@ -12,7 +12,7 @@ import { Flex, Img } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Flex direction="column">
+    <Flex direction="column" color="white">
       <FirstSession />
       <Img src="/images/cb-bg1.png" zIndex="10" />
       <SecondSession />
@@ -30,4 +30,4 @@ export default function Home() {
       <Footer />
     </Flex>
   );
-} 
+}

@@ -26,13 +26,22 @@ export const SixthSession = () => {
         top="8"
       />
       <Flex direction="column" w="60" gap="5" py="8">
-        <Text
-          fontSize="3xl"
-          fontWeight="bold"
-          textShadow="0px 3px 4px rgba(0, 0, 0, 0.15)"
-        >
-          Dúvidas? <Text>Fale conosco!</Text>
-        </Text>
+        <Flex direction="column">
+          <Text
+            fontSize="3xl"
+            fontWeight="bold"
+            textShadow="0px 3px 4px rgba(0, 0, 0, 0.15)"
+          >
+            Dúvidas?
+          </Text>
+          <Text
+            fontSize="3xl"
+            fontWeight="bold"
+            textShadow="0px 3px 4px rgba(0, 0, 0, 0.15)"
+          >
+            Fale conosco!
+          </Text>
+        </Flex>
         <Text>
           Ficou com alguma dúvida? Deseja mais informações ou está com alguma
           dificuldade na hora da compra? Então entre em contato conosco.
