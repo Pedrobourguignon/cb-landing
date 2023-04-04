@@ -5,13 +5,27 @@ import { PrimaryButton } from "../PrimaryButton";
 export const FourthSession = () => {
   const theme = usePicasso();
   return (
-    <Flex bg="white" w="100%" justify="center">
+    <Flex
+      bg="white"
+      w="100%"
+      justify="center"
+      direction="column"
+      position="relative"
+      align="center"
+    >
+      <Flex
+        bg={theme.branding.salmon}
+        w="100%"
+        h="16"
+        position="absolute"
+        top="0"
+      />
+      <Img src="/images/celia_bourguignon.png" w="60" zIndex="docked" />
       <Flex
         w="60"
         direction="column"
         gap="6"
         pb="8"
-        pt="60"
         position="relative"
         align="center"
       >

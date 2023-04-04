@@ -6,7 +6,7 @@ export const ThirdSession = () => {
     <Flex
       bg={theme.branding.salmon}
       align="center"
-      pb="32"
+      pb="8"
       pt="10"
       direction="column"
     >
