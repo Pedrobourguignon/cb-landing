@@ -21,7 +21,7 @@ export const FifthSession = () => {
         zIndex="hide"
       />
       <Flex
-        w="60"
+        px="10"
         direction="column"
         pt="10"
         align="center"

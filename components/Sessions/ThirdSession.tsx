@@ -10,7 +10,7 @@ export const ThirdSession = () => {
       pt="10"
       direction="column"
     >
-      <Flex direction="column" w="60" gap="5" position="relative">
+      <Flex direction="column" px="10" gap="5" position="relative">
         <Text
           fontSize="3xl"
           fontWeight="bold"
@@ -28,7 +28,7 @@ export const ThirdSession = () => {
         <Img
           src="/images/ellipse1.png"
           position="absolute"
-          left="40"
+          right="4"
           top="24"
           boxSize="24"
         />

@@ -22,7 +22,7 @@ export const FourthSession = () => {
       />
       <Img src="/images/celia_bourguignon.png" w="60" zIndex="docked" />
       <Flex
-        w="60"
+        px="10"
         direction="column"
         gap="6"
         pb="8"

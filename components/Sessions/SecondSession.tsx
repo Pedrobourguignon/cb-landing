@@ -27,7 +27,13 @@ export const SecondSession = () => {
         top="10"
         boxSize="32"
       />
-      <Flex direction="column" w="72" gap="4" align="center" textAlign="center">
+      <Flex
+        direction="column"
+        px="10"
+        gap="4"
+        align="center"
+        textAlign="center"
+      >
         <Text
           fontSize="3xl"
           fontWeight="bold"

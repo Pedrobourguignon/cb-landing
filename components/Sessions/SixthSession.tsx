@@ -25,7 +25,7 @@ export const SixthSession = () => {
         right="7"
         top="8"
       />
-      <Flex direction="column" w="60" gap="5" py="8">
+      <Flex direction="column" px="10" gap="5" py="8">
         <Flex direction="column">
           <Text
             fontSize="3xl"

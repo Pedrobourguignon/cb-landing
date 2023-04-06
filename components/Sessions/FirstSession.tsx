@@ -16,13 +16,13 @@ export const FirstSession = () => {
       <Flex
         direction="column"
         gap="8"
+        px="10"
         w="100%"
         align="center"
         textAlign="center"
       >
         <Text
           fontSize="4xl"
-          w="60"
           textShadow="0px 3px 4px rgba(0, 0, 0, 0.15)"
           fontWeight="bold"
         >
