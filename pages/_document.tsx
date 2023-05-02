@@ -6,6 +6,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <FacebookPixel />
+        <meta
+          name="facebook-domain-verification"
+          content="sjuxk3gp6hlb1x75ty573nvypyrb2y"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
