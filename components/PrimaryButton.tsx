@@ -1,5 +1,6 @@
 import { usePicasso } from "@/hooks/usePicasso";
-import { Button, FlexProps } from "@chakra-ui/react";
+import { Button, FlexProps, Link } from "@chakra-ui/react";
+import NextLink from "next/link";
 
 export const PrimaryButton: React.FC<FlexProps> = ({ height }) => {
   const theme = usePicasso();
@@ -12,6 +13,8 @@ export const PrimaryButton: React.FC<FlexProps> = ({ height }) => {
       h={height}
       w="60"
       boxShadow="xl"
+      _hover={{}}
+      onClick={() => window.open("https://pay.kiwify.com.br/5vk05Tc")}
     >
       QUERO RECEBER
     </Button>
