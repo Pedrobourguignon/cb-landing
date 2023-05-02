@@ -5,12 +5,7 @@ import { PrimaryButton } from "../PrimaryButton";
 export const FifthSession = () => {
   const theme = usePicasso();
   return (
-    <Flex
-      bg={theme.branding.gray}
-      position="relative"
-      justify="center"
-      zIndex="hide"
-    >
+    <Flex bg={theme.branding.gray} position="relative" justify="center">
       <Img
         src="/images/ellipse2.png"
         boxSize="28"

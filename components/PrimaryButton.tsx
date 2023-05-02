@@ -15,6 +15,7 @@ export const PrimaryButton: React.FC<FlexProps> = ({ height }) => {
       boxShadow="xl"
       _hover={{}}
       onClick={() => window.open("https://pay.kiwify.com.br/5vk05Tc")}
+      zIndex="999"
     >
       QUERO RECEBER
     </Button>
