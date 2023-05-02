@@ -17,13 +17,7 @@ export default function Home() {
     sendEvent({
       event_name: "Page View",
       event_time: Math.floor(Date.now() / 1000),
-      user_data: {
-        email: "john.doe@example.com",
-      },
-      custom_data: {
-        currency: "none",
-        value: "0",
-      },
+      event_source_url: window.location.href,
     });
   };
 
