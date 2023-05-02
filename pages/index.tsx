@@ -15,7 +15,7 @@ import { useEffect } from "react";
 export default function Home() {
   const handlePageView = () => {
     sendEvent({
-      event_name: "Page View",
+      event_name: "PageView",
       event_time: Math.floor(Date.now() / 1000),
       event_source_url: window.location.href,
     });
