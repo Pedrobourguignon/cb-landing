@@ -5,7 +5,7 @@ import { Button, FlexProps } from "@chakra-ui/react";
 export const PrimaryButton: React.FC<FlexProps> = ({ height }) => {
   const theme = usePicasso();
   const handleConversion = () => {
-    'fbq("track", "Purchase", { currency: "USD", value: 30.0 });';
+    fbq("track", "Purchase", { currency: "USD", value: 30.0 });
     window.open("https://pay.kiwify.com.br/5vk05Tc");
   };
 
