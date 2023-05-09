@@ -1,22 +1,11 @@
 import { usePicasso } from "@/hooks/usePicasso";
-import sendEvent from "@/utils/facebookConversionEvent";
 // import sendEvent from "@/utils/facebookConversionEvent";
 import { Button, FlexProps } from "@chakra-ui/react";
 
 export const PrimaryButton: React.FC<FlexProps> = ({ height }) => {
   const theme = usePicasso();
   const handleConversion = () => {
-    sendEvent({
-      event_name: "Purchase",
-      event_time: Math.floor(Date.now() / 1000),
-      user_data: {
-        email: "john.doe@example.com",
-      },
-      custom_data: {
-        currency: "USD",
-        value: "100.00",
-      },
-    });
+    'fbq("track", "Purchase", { currency: "USD", value: 30.0 });';
     window.open("https://pay.kiwify.com.br/5vk05Tc");
   };
 
